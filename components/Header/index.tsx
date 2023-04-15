@@ -6,8 +6,14 @@ import { MdOutlineAlternateEmail } from "react-icons/md";
 export default function Header() {
   return (
     <div className="text-white flex flex-col items-center">
-      <div className="w-20 h-20 rounded-full bg-white">
-        {/* <Image src={""} alt="image" /> */}
+      <div className="w-[8.3rem] h-[8.3rem] border-4 border-gray-300 flex justify-center items-center rounded-full bg-white">
+        <Image
+          className="w-32 hover:scale-110 h-32 rounded-full object-cover object-center bg-white"
+          src={"/Profile/ProfileFixed.jpg"}
+          width={1920}
+          height={1080}
+          alt="image"
+        />
       </div>
       <p className="text-sm font-medium text-gray-50 mt-5">Hi , I am Riyad</p>
       <p className="text-5xl bg-gradient-to-tr  text-transparent bg-clip-text from-gray-50 via-gray-300 to-gray-500 font-medium mt-7">
