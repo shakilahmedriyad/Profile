@@ -7,7 +7,7 @@ const handler: NextApiHandler = async (
 ) => {
   try {
     const data = req.body;
-    console.log(data);
+
     if (!data || !data.name || !data.email || !data.message)
       return res.status(500).send("bad request");
 

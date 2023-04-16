@@ -21,7 +21,7 @@ export default function Contacts() {
         email: emailRef.current.value,
         message: messageRef.current.value,
       };
-      console.log(data);
+
       const res = await fetch("/api/Contact", {
         method: "POST",
         body: JSON.stringify(data),
