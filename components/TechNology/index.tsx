@@ -2,11 +2,11 @@ import Image from "next/image";
 
 export default function TechNology() {
   return (
-    <div className="text-white text-center bg-[#171717] py-5 mt-36">
-      <p className="text-2xl bg-gradient-to-tr  text-transparent bg-clip-text from-gray-50 via-gray-300 to-gray-500 font-medium mt-7">
+    <div className="text-white text-center flex flex-col justify-center items-center bg-[#171717] py-3 mt-16 sm:mt-32">
+      <p className=" text-xl sm:text-2xl bg-gradient-to-tr  text-transparent bg-clip-text from-gray-50 via-gray-300 to-gray-500 font-medium mt-7">
         Technologies I work with
       </p>
-      <div className="flex gap-x-14 mt-9 flex-wrap mx-[19%] justify-center gap-y-5">
+      <div className="flex  gap-x-14 mt-9 flex-wrap w-auto mx-[3%] md:w-[43rem] justify-center gap-y-5">
         <Image src={"/Techs/reactjs.svg"} alt="react" width={100} height={50} />
         <Image
           src={"/Techs/nextjs.svg"}
