@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import ShowCase from "@/components/ShowCase";
 import TechNology from "@/components/TechNology";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <>
       <Header />
       <TechNology />
+      <ShowCase />
     </>
   );
 }

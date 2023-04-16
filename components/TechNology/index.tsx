@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function TechNology() {
   return (
-    <div className="text-gray-50 text-center bg-[#171717] py-5 mt-36">
-      <p className="text-xl bg-gradient-to-tr  text-transparent bg-clip-text from-gray-50 via-gray-300 to-gray-500 font-medium mt-7">
+    <div className="text-white text-center bg-[#171717] py-5 mt-36">
+      <p className="text-2xl bg-gradient-to-tr  text-transparent bg-clip-text from-gray-50 via-gray-300 to-gray-500 font-medium mt-7">
         Technologies I work with
       </p>
       <div className="flex gap-x-14 mt-9 flex-wrap mx-[19%] justify-center gap-y-5">
