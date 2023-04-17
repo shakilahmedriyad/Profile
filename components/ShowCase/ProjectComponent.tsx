@@ -51,7 +51,7 @@ export default function ProjectComponent({
             className="flex  items-center gap-x-2"
           >
             <DiGithubBadge size={25} />
-            <p>source code</p>
+            <p>Source code</p>
           </Link>
         </div>
       </div>

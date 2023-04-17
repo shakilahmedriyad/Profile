@@ -64,7 +64,7 @@ export default function ShowCase() {
               href={"https://github.com/Riyad139/grid__project"}
             >
               <DiGithubBadge size={25} />
-              <p>source code</p>
+              <p>Source code</p>
             </Link>
           </div>
         </div>
