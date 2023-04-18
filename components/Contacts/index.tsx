@@ -45,7 +45,7 @@ export default function Contacts() {
     <div className=" w-full py-7 mt-28 mb-10 text-gray-100 flex flex-col justify-center items-center  ">
       <Toaster position="top-right" />
 
-      <div className=" w-[80%] sm:w-[60%] md:w-[46rem] bg-[#171717] px-9 md:px-24 shadow-xl py-16 rounded-xl text-sm ">
+      <div className=" w-[80%] sm:w-[60%] md:w-[46rem] md:bg-[#171717]  md:px-24 md:shadow-xl py-16 rounded-xl text-sm ">
         <div className="space-y-2">
           <p>Interested in a collabaration?</p>
           <p className="text-4xl bg-gradient-to-tr  text-transparent bg-clip-text from-gray-50 via-gray-300 to-gray-500 font-medium mt-7">

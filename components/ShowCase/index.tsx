@@ -54,14 +54,16 @@ export default function ShowCase() {
           <div className="mt-6 flex gap-x-7">
             <Link
               className="flex  items-center gap-x-2"
-              href={"https://riyad139.github.io/grid__project/"}
+              href={"https://riyad139.github.io/Realtor_app/"}
+              target="_blank"
             >
               <HiOutlineExternalLink size={23} />
               <p>Demo</p>
             </Link>
             <Link
               className="flex  items-center gap-x-2"
-              href={"https://github.com/Riyad139/grid__project"}
+              href={"https://github.com/Riyad139/Realtor_app"}
+              target="_blank"
             >
               <DiGithubBadge size={25} />
               <p>Source code</p>
