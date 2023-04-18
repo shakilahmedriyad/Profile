@@ -31,7 +31,7 @@ export default function ShowCase() {
         title="Realtor Landing page"
         description="This Landing page is design for a Realtor business"
         technology="HTML5 , SCSS"
-        demoUrl="https://github.com/Riyad139/Realtor_app"
+        demoUrl="https://riyad139.github.io/Realtor_app/"
         gitUrl="https://github.com/Riyad139/Realtor_app"
       />
     </div>
