@@ -26,51 +26,14 @@ export default function ShowCase() {
         gitUrl="https://github.com/Riyad139/management"
         demoUrl="https://management-woad.vercel.app"
       />
-      <div className="flex gap-y-2 md:gap-y-0 flex-col md:flex-row mt-11">
-        <div className="  sm:w-96 bg-gray-300 relative h-60 overflow-hidden ">
-          <Image
-            src={"/projects/RealTorBack.jpg"}
-            className="w-[21rem] shadow-2xl h-56 absolute -top-20 -right-10 z-1 object-cover "
-            width={1920}
-            height={1080}
-            alt="NFT"
-          />
-          <Image
-            src={"/projects/RealTorTop.jpg"}
-            className=" w-[18.5rem]  sm:w-[21rem] left-6 shadow-2xl h-56 absolute z-2 top-24 object-cover "
-            width={1920}
-            height={1080}
-            alt="NFT"
-          />
-        </div>
-
-        <div className="text-gray-200 mx-7 my-3 text-sm w-72 ">
-          <p className="text-2xl font-medium">Realtor Landing page</p>
-          <p className="mt-4">
-            This Landing page is design for a Realtor business
-          </p>
-          <p className="uppercase text-gray-400 mt-7">Technologies used</p>
-          <p className="mt-2 text-gray-300">HTML5 , scss</p>
-          <div className="mt-6 flex gap-x-7">
-            <Link
-              className="flex  items-center gap-x-2"
-              href={"https://riyad139.github.io/Realtor_app/"}
-              target="_blank"
-            >
-              <HiOutlineExternalLink size={23} />
-              <p>Demo</p>
-            </Link>
-            <Link
-              className="flex  items-center gap-x-2"
-              href={"https://github.com/Riyad139/Realtor_app"}
-              target="_blank"
-            >
-              <DiGithubBadge size={25} />
-              <p>Source code</p>
-            </Link>
-          </div>
-        </div>
-      </div>
+      <ProjectComponent
+        image="/projects/Realtor.png"
+        title="Realtor Landing page"
+        description="This Landing page is design for a Realtor business"
+        technology="HTML5 , SCSS"
+        demoUrl="https://github.com/Riyad139/Realtor_app"
+        gitUrl="https://github.com/Riyad139/Realtor_app"
+      />
     </div>
   );
 }

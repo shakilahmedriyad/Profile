@@ -20,10 +20,29 @@ export default function ProjectComponent({
 }: obj) {
   return (
     <div className="flex flex-col gap-y-3 md:gap-y-0 md:flex-row mt-11">
-      <div className=" sm:w-96 h-60 bg-white">
+      <div className=" relative flex group justify-center items-center sm:w-[24rem] h-60 ">
+        <div className=" hidden text-white brightness-150 animate-pulse   group-hover:flex absolute z-50   gap-x-3">
+          <Link
+            href={demoUrl}
+            target="_blank"
+            className="flex  items-center gap-x-2"
+          >
+            <HiOutlineExternalLink size={23} />
+            <p>Demo</p>
+          </Link>
+
+          <Link
+            href={gitUrl}
+            target="_blank"
+            className="flex  items-center gap-x-2"
+          >
+            <DiGithubBadge size={25} />
+            <p>Source code</p>
+          </Link>
+        </div>
         <Image
           src={image}
-          className="w-96 h-60 object-cover "
+          className="w-96 transition group-hover:brightness-50  group-hover:blur-sm group-hover:scale-105 h-60 object-cover "
           width={1920}
           height={1080}
           alt="NFT"
